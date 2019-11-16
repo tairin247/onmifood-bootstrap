@@ -1,0 +1,477 @@
+body {
+    font-family: 'Raleway', san-serif;
+}
+
+/*navbar section*/
+.navbar {
+    background: linear-gradient(to right, #00867d, #0090a0);
+
+}
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar .nav-item.active .nav-link {
+    color: #FFC794;
+}
+.navbar .nav-item .nav-link:hover {
+    color: #FFC794;
+    background-color: #00c29e;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    border-radius: 5px;
+    margin-right:15px;
+}
+.btn-signup {
+    background-color: #00c29e;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    border-radius: 5px;
+
+}
+
+/*banner section*/
+.banner {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner .row {
+    min-height: 650px;
+}
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+}
+
+.highlight {
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.btn {
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    border-radius: 5px !important;
+    padding: 12px 20px !important;
+    margin: 0 10px !important;
+    margin-top: 50px !important;
+
+}
+
+.btn-cta {
+    background: #00909f;
+}
+
+.btn-cta:hover, 
+.btn-ghost:hover {
+    color: #fff !important;
+    background: linear-gradient(to right, #00867d, #0090a0);
+}
+
+/*Service section*/
+
+.service {
+    background: #e9e9e9;
+    padding: 80px 0;
+}
+
+.up-level {
+    text-align: center;
+}
+
+.up-level h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #222;
+    font-weight: 600;
+}
+
+.up-level p {
+    font-weight: 700px;
+    padding: 0 14%;
+    margin-top: 0 2%;
+    line-height: 1.5;
+}
+
+.card {
+    text-align: center;
+    margin: 50px .5%;
+    min-height: 360px;
+}
+
+.card img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.card h5 {
+    padding: 10px 0 15px;
+    border-bottom: 1px solid #ccc;
+    font-size: 19px;
+}
+
+.card p {
+    font-size: 14px;
+}
+.links img{
+    width: 50% !important;
+}
+
+/*media queries*/
+@media (max-width: 992px) {
+    .card {
+        margin: 25px 0;
+    }   
+}
+
+
+/*works section*/
+
+.work {
+    padding: 80px 0;
+}
+
+.work h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2d3950;
+    margin-bottom: 60px;
+    text-align: center; 
+    font-weight: 700;
+}
+
+.phone img {
+     width: 220px;
+     margin-left: 120% !important;
+}
+
+.media {
+    margin: 30px 0;
+}
+
+.number {
+    border: 2px solid #04b3a7;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.links a img {
+    max-width: 135px;
+    margin-top: 15px;
+}
+
+
+
+/*City section*/
+
+.cities {
+    padding: 80px 0;
+    background: #e9e9e9;
+}
+
+.cities h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+ .city h5 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 30px 0px;
+    font-weight: 600;
+    color: #2d3950;
+}
+.col-2 img{
+    width: 40px !important;
+}
+.col-10 p{
+    font-size: 20px !important;
+}
+
+/*Testimonial section*/
+
+.testimonial {
+    padding: 60px 0;
+        background: linear-gradient(to right,#013327e3,#042429e8),url(../images/testimonial-bg.png);
+
+    background-position: center;
+    background-size: cover;
+    min-height: 360px;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.testimonial .apostophy {
+    font-size: 60px;
+    font-style: italic;
+    padding: 0 10%;
+}
+
+.testimonial p {
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 0 25%;
+}
+
+.testimonial .row .col-6 img {
+    float: right;
+    border-radius: 50%;
+}
+
+.testimonial .row .col-6 h4 {
+    text-align: left;
+    margin-top: 50px;
+}
+
+/*Plan Section*/
+
+.plan-box {
+    padding: 80px 0;
+    background: #e9e9e9;
+}
+
+.plan-box h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.plan-box .plan {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.plan-box .plan .card {
+    padding: 4% 0;
+    min-height: 480px;
+    box-shadow: 0px 0px 10px #c3c3c3;
+    transition: all 0.2s linear;
+}
+
+.plan-box .plan .card-body h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plan-box .plan .card-body h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.plan-box .plan .card-body h3 span {
+      font-size: 25px;
+      font-weight: 400;
+}
+
+.plan-box .plan .card-body ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.plan-box .plan .card-body ul li {
+    margin-bottom: 6%;
+    font-size: 20px;
+}
+
+.plan-box .plan .card-body ul li i {
+    color: #267f5f;
+    margin-right: 2%;
+}
+
+.plan-box .plan .card-body .btn-info {
+    border: 2px solid #00867d;
+    transition: all 0.2s linear;
+}
+
+.plan-box .plan .card-body .btn-info:hover {
+        
+    background: #00c29e;
+    transform: scale(1.1);
+}
+
+.plan-box .plan .card:hover {
+    color: #fff !important;
+    background: #008883;
+}
+
+
+
+.plan-box .plan .card:hover ul li i {
+    color: #fff !important;
+    background: #008773;
+}
+
+/*connection section*/
+
+.connection {
+    padding: 80px 0;
+}
+
+.connection h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.connection .input {
+    padding: 0 30%;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    background: #e9e9e9;
+    border: none;
+}
+
+.form-control:hover {
+    border: 2px solid #00867d;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 2px solid #00867d;
+    box-shadow: none;
+}
+
+.custom-select {
+    background: #e9e9e9;
+    border: none;
+}
+
+.custom-select:hover {
+    border: 2px solid #00867d;
+    box-shadow: none;
+}
+
+.custom-select:focus {
+    border: 2px solid #00867d;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    border: 2px solid #0090a0 !important;
+    margin: 0 31% !important;
+    transition: all 0.2s linear;
+    padding-left: 15px !important;
+    padding-right: 15px !important
+    font-size: 14px;
+    color: #fff !important;
+    margin-top: 5px !important;
+    background-color: #39a2ae;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+    background: #0090a0;
+    color: #fff;
+}
+
+/*Office section*/
+
+.office {
+        background: linear-gradient(to right, rgba(2, 58, 36, 0.86), rgba(2, 45, 34, 0.84)),url(../images/footer-bg.png);
+        background-size: cover;
+        background-position: center;
+        padding: 3% 0;
+        position:relative;
+}
+
+.office .col-md-6 {
+        color: #fff;
+}
+
+.office .col-md-6 img {
+        float: right;
+        width: 95%;
+    }
+.placeholder img {
+    width: 2%;
+    position: absolute;
+    bottom: 14%;
+    left: 17%;
+}
+.office .col-md-6 h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 7%;
+        margin-bottom: 4%;
+    }
+
+.office .col-md-6 ul {
+        list-style: none;
+        padding: 0;
+}
+
+.office .col-md-6 ul li {
+        font-size: 22px;
+        margin-bottom: 4%;
+}
+
+.office .col-md-6 ul li a {
+        color: #fff;
+}
+
+.office .col-md-6 ul li a:hover {
+        color: #00a993;
+}
+
+.office .col-md-6 .connect li {
+        display: inline-block;
+        margin-right: 3%;
+}
+
+.office .col-md-6 .connect li i {
+        width: 6vh;
+        height: 6vh;
+        line-height: 7vh;
+        background: #fff;
+        color: #000;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 26px;
+        transition: all 0.1s linear;
+}
+
+.office .col-md-6 .connect li i:hover {
+        background: black;
+        color: white;
+}
